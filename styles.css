@@ -1,0 +1,141 @@
+/*  NAVIGATION BAR  */
+
+
+/*  MAIN CONTENT  */
+
+
+.prods{
+	text-align: center;
+	text-shadow: 5px;
+	font-size: 30px;
+	color: black;
+	text-transform: uppercase;
+}
+div.card{
+	margin-bottom: 20px;
+}
+a.link_phots : hover{
+	box-shadow: 2px solid blue;
+	color: red;
+}
+a.link_phots{
+	text-decoration: none;
+	color: black;
+	box-sizing: border-box;
+	margin:20px 5px;
+	border: 1px solid;
+	border-color: black;
+}
+.items{
+	height: 300px;
+	width: 100%;
+	padding-top: 10px;
+	background:url('images/Iphone_XII_Pro.png') no-repeat;
+	background-position: center;
+}
+.items_2{
+	height: 300px;
+	width: 100%;
+	padding-top: 20px;
+	background:url('images/Iphone_XII.png') no-repeat;
+	background-position: center;
+}
+.prod_dets{  /*  Span defining product names  */
+	text-align:left;
+	padding:10px 50px 10px 50px;
+}
+
+
+/*  END OF MAIN CONTENT  */
+
+
+
+/*  FOOTER  */
+
+.footer{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 3px solid blue;
+}
+.tiles{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+.icons-1{
+	background: url('images/insta-icon.png') no-repeat;
+	height: 64px;
+	width: 100%;
+	padding-top: 10px;
+	background-position: center;
+	margin-bottom: 10px;
+}
+.icons-2{
+	background: url('images/github-icon.png') no-repeat;
+	height: 64px;
+	width: 100%;
+	padding-top: 10px;
+	background-position: center;
+	margin-bottom: 10px;
+}
+.icons-3{
+	background: url('images/linkedin-icon.png') no-repeat;
+	height: 64px;
+	width: 100%;
+	padding-top: 10px;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+/*  END OF FOOTER  */
+
+
+
+/*  MEDIA QUERIES  */
+
+@media (min-width: 1200px){
+	.prod_img{
+	
+		width: 365px;
+		height: 500px;
+		padding-top: 10px;
+		background-position: center;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.prod_img{
+
+		width: 365px;
+		height: 500px;
+		padding-top: 10px;
+		background-position: center;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.prod_img{
+
+		width: 219px;
+		height: 300px;
+		padding-top: 10px;
+		background-position: center;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 767px){
+	hr{
+		width:50%;
+	}
+	.prod_img{
+
+		width: 146px;
+		height: 200px;
+		padding-top: 10px;
+		background-position: center;
+		margin-bottom: 10px;
+	}
+}
