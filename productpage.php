@@ -56,65 +56,9 @@
 <!--  CONTAINER  -->
 
 <div class="container">
-  <?php
-  $item= $_REQUEST["src"];
-  if($item=="item1"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item2"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item3"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\" style=\"background: url('images/Iphone_XII_Pro.png') no-repeat;\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item4"){
-    echo "		<div class=\"prod_name\"></div>
-    		<div class=\"prod_img\" style=\"background: url('images/Iphone_XII_MD.png') no-repeat;\"></div>
-    		<div class=\"prod_price\"></div>";
-  }
-  else if($item=="item5"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item6"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item7"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item8"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item9"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item10"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  else if($item=="item11"){
-    echo "		<div class=\"prod_name\"></div>
-        <div class=\"prod_img\"></div>
-        <div class=\"prod_price\"></div>";
-  }
-  ?>
-
+		<div class="prod_name"></div>
+		<div class="prod_img"></div>
+		<div class="prod_price"></div>
 </div>
 
 <!--  CONTAINER  -->
@@ -143,7 +87,7 @@
 				<a href="">
 					<div class="icons-3"></div>
 				</a>
-			</div>
+			</div>	
 		</div>
 	</div>
 </footer>

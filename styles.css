@@ -95,7 +95,7 @@ a.link_phots{
 
 @media (min-width: 1200px){
 	.prod_img{
-	
+		background: url('images/Iphone_XII_LG.png') no-repeat;
 		width: 365px;
 		height: 500px;
 		padding-top: 10px;
@@ -106,7 +106,7 @@ a.link_phots{
 
 @media (min-width: 992px) and (max-width: 1199px){
 	.prod_img{
-
+		background: url('images/Iphone_XII_MD.png') no-repeat;
 		width: 365px;
 		height: 500px;
 		padding-top: 10px;
@@ -117,7 +117,7 @@ a.link_phots{
 
 @media (min-width: 768px) and (max-width: 991px){
 	.prod_img{
-
+		background: url('images/Iphone_XII_SM.png') no-repeat;
 		width: 219px;
 		height: 300px;
 		padding-top: 10px;
@@ -131,7 +131,7 @@ a.link_phots{
 		width:50%;
 	}
 	.prod_img{
-
+		background: url('images/Iphone_XII_XS.png') no-repeat;
 		width: 146px;
 		height: 200px;
 		padding-top: 10px;
